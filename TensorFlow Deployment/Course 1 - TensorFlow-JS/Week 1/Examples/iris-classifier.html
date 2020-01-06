@@ -20,7 +20,8 @@
                             ys.species == "setosa" ? 1 : 0,
                             ys.species == "virginica" ? 1 : 0,
                             ys.species == "versicolor" ? 1 : 0
-                      ] 
+                      ]
+                      console.log(xs);
                       return{ xs: Object.values(xs), ys: Object.values(labels)};
                   }).batch(10);
             
